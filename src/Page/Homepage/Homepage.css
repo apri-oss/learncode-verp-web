@@ -1,0 +1,57 @@
+.detail{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.detail h1{ 
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+ 
+span{
+    color: #ff5656;
+}
+.detail p{
+    color: #555;
+    line-height: 22px;
+}
+.detail a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.shape{
+    margin-bottom: 8%;
+}
+
+.images{
+    width: 35%;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    margin-top: -2000px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape{
+    bottom: 40px;
+}
+
+.images:hover .person{
+    left: 45%;
+}
