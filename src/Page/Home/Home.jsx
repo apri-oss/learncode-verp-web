@@ -12,12 +12,11 @@ class Home extends Component{
       <Router>
         <Fragment>
           <nav>
-            <img src={logo} alt="sdfsdf" class="logo"/>
+            <img src={logo} alt="" class="logo"/>
             <ul>
-              <li><Link to="/">HOME</Link></li>
-              <li><Link to="/about">ABOUT</Link></li>
-              <li><Link to="#">MY BLOG</Link></li>
-              <li><Link to="#">BLOG</Link></li>
+              <li><Link to="/">home</Link></li>
+              <li><Link to="/about">about</Link></li>
+              <li><Link to="#">my work</Link></li>
 
             </ul>
           </nav>
