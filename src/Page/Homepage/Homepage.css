@@ -84,3 +84,75 @@ span{
 .images:hover .person{
   left: 45%;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+  .detail{
+    /* background: #212121; */
+    margin-left: 8%;
+    margin-top: 15%;
+  }
+
+  .images{
+    width: 35%;
+    height: 35%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 57%;
+    margin-right: 1%;
+    right: 100px;
+  }
+  
+  .images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-60%);
+    transition: bottom 1s, left 1s;
+  }
+  
+  .images:hover .person{
+    left: 45%;
+  }
+
+  .detail .desc-text{
+    color: #aea3a3;
+    font-size: 18px;
+  }
+  
+  .detail h1{ 
+    font-size: 30px;
+    color: #212121;
+    margin-bottom: 20px;
+    font-family: 'Hind Jalandhar', sans-serif;
+    margin-top: 90%;
+
+  }
+  span{
+    color: #ab60e2;
+    font-size: 30px;
+    margin-top: 60%;
+    font-family: 'Hind Jalandhar', sans-serif;
+  
+  }
+  .detail p{
+    color: #555;
+    line-height: 22px;
+  }
+  .detail a{
+    background: #ab60e2;
+    padding: 20px 28px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 40px;
+  }
+  
+  
+ 
+
+}
